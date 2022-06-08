@@ -7,4 +7,4 @@ build:
     PORT: $PORT
 
 run:
-  web: yarn start
+  web: yarn develop
