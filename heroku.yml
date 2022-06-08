@@ -1,0 +1,10 @@
+build:
+  docker:
+   web: Dockerfile.dev
+  config:
+    NODE_ENV: development
+    DATABASE_URL: $DATABASE_URL
+    PORT: $PORT
+
+run:
+  web: yarn develop
