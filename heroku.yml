@@ -1,10 +1,10 @@
 build:
   docker:
-   web: dockerfile.dev
+   web: dockerfile.prod
   config:
-    NODE_ENV: development
+    NODE_ENV: production
     DATABASE_URL: $DATABASE_URL
     PORT: $PORT
 
 run:
-  web: yarn develop
+  web: yarn start
