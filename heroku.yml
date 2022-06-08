@@ -1,6 +1,6 @@
 build:
   docker:
-   web: Dockerfile.dev
+   web: dockerfile.dev
   config:
     NODE_ENV: development
     DATABASE_URL: $DATABASE_URL
